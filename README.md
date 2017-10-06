@@ -1,7 +1,19 @@
 sandbox-docker
 ===============
 
-Simple Development Sandbox DOCKER DRUPAL 
+Simple Development Sandbox DOCKER DRUPAL
+
+Summary:
+--------
+
+* Apache 2.4
+* MariaDB 10.1
+* PHP 7.0
+* The latest release of Drupal Console (for 8 and 8.*.* tags)
+* Drupal 8
+* Composer
+* PHPMyAdmin
+
 
 - $: `docker-compose build`
 - $: `docker-compose up -d`
