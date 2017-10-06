@@ -23,7 +23,9 @@ How To:
 - $: `sudo ifconfig en0 alias 10.254.254.254 255.255.255.0 #Linux and MAC`
 
 
-PhpStorm:
+Using PhpStorm:
+---------------
+
 - `Settings > Languages & Framework > PHP > Debug > DBGp Proxy`
 - `IDE key: PHPSTORM`
 - `Host: 10.254.254.254`
