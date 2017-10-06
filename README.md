@@ -23,8 +23,8 @@ How To:
 - $: `sudo ifconfig en0 alias 10.254.254.254 255.255.255.0 #Linux and MAC`
 
 
-Using PhpStorm:
----------------
+PhpStorm Settings:
+-----------------
 
 - `Settings > Languages & Framework > PHP > Debug > DBGp Proxy`
 - `IDE key: PHPSTORM`
