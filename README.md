@@ -20,6 +20,12 @@ How To:
 - $: `docker-compose build`
 - $: `docker-compose up -d`
 - $: `sudo ifconfig en0 alias 10.254.254.254 255.255.255.0 #Linux and MAC`
+- $: `docker-compose stop` # stop sandbox
+
+Remove:
+-------
+
+- $: `docker-compose down`
 
 
 PhpStorm Settings:
