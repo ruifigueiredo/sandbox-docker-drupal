@@ -15,6 +15,9 @@ Summary:
 * PHPMyAdmin
 
 
+How To:
+-------
+
 - $: `docker-compose build`
 - $: `docker-compose up -d`
 - $: `netsh interface ipv4 add address "vEthernet (DockerNAT)" 10.254.254.254 255.255.255.0 #Windows Admin`
