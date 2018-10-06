@@ -1,14 +1,14 @@
 version: '3.2'
 services:
   mysql:
-    image: mysql
+    image: percona:5.5
     environment:
       MYSQL_ROOT_PASSWORD: root 
     ports:
       - "3306:3306"
     volumes:
       - ./mysql/data:/var/lib/mysql
-      - ./mysql/mysqld_charset.cnf:/etc/mysql/conf.d/mysqld_charset.cnf
+      - ./mysql/config/minimal.cnf:/etc/mysql/conf.d//minimal.cnf
   phpmyadmin:
     image: phpmyadmin/phpmyadmin 
     environment:     

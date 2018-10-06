@@ -1,0 +1,44 @@
+[mysqld]
+# /etc/my.cnf:
+innodb_file_per_table=1
+innodb_buffer_pool_size=5M
+innodb_log_buffer_size=8M
+query_cache_size=0
+#key_buffer_size=8
+thread_cache_size=0
+#host_cache_size=0
+#innodb_ft_cache_size=1600000
+#innodb_ft_total_cache_size=32000000
+
+# per thread or per operation settings
+thread_stack=131072
+sort_buffer_size=32K
+read_buffer_size=8200
+read_rnd_buffer_size=8200
+max_heap_table_size=16K
+tmp_table_size=1K
+bulk_insert_buffer_size=0
+join_buffer_size=128
+net_buffer_length=1K
+#innodb_sort_buffer_size=64K
+
+#settings that relate to the binary log (if enabled)
+binlog_cache_size=4K
+binlog_stmt_cache_size=4K
+
+#largest impact (50% memory)
+performance_schema=off
+
+# Skip reverse DNS lookup of clients
+skip-name-resolve
+skip-host-cache
+
+innodb_flush_log_at_trx_commit=0
+
+#Cofigure charset
+character_set_server=utf8
+character_set_filesystem=utf8
+collation-server=utf8_general_ci
+init-connect='SET NAMES utf8'
+init_connect='SET collation_connection = utf8_general_ci'
+skip-character-set-client-handshake
