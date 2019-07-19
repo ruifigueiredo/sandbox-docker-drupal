@@ -2,6 +2,7 @@ sandbox-docker
 ===============
 
 Simple Development Sandbox for Drupal with Docker
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W3ZIV7)
 
 Summary:
 --------
